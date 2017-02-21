@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a75e904_970e6b33",
+        "filename": "kogakure.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 7
+      },
+      "writtenOn": "2017-02-21T06:16:00Z",
+      "side": 1,
+      "message": "The URL should be http://kogakure.github.io/gitweb-theme/",
+      "revId": "bb95572fa018a2c44dde462c15349ff41e909f61",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a75e904_f71cff6c",
+        "filename": "kogakure.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7
+      },
+      "writtenOn": "2017-02-21T06:16:00Z",
+      "side": 1,
+      "message": "Perhaps this could be minified, Adds \nBuildRequires: python-pathlib\nBuildRequires: python-enum34\nBuildRequires: python-scss\n\nand call pyscss kogakure.css -o kagakure.min.css",
+      "revId": "bb95572fa018a2c44dde462c15349ff41e909f61",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a75e904_b7128756",
+        "filename": "kogakure.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 7
+      },
+      "writtenOn": "2017-02-21T06:16:00Z",
+      "side": 1,
+      "message": "You don\u0027t need to mkdir when you use install -D ;)",
+      "revId": "bb95572fa018a2c44dde462c15349ff41e909f61",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0",
+      "unresolved": false
+    }
+  ]
+}
