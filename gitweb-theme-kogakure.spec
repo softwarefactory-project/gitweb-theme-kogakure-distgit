@@ -1,12 +1,12 @@
 %global         commit0 4305b3551551c470339c24a6567b1ac9e642ae54
 %global         shortcommit0 %(c=%{commit0}; echo ${c:0:7})
 %global         uname gitweb-theme
-%global         checkout 02202017git%{shortcommit0}
+%global         checkout 20170220git%{shortcommit0}
 %global         gitwebver 1.8.3.1
 
 Name:           gitweb-theme-kogakure
 Version:        %{gitwebver}
-Release:        %{checkout}%{?dist}
+Release:        1.%{checkout}%{?dist}
 Summary:        Gitweb theme Kogakure
 
 License:        MIT
@@ -38,5 +38,8 @@ install -p -D -m 644 gitweb.css %{buildroot}/%{_var}/www/git/static/kogakure.css
 %{_var}/www/git/static/kogakure.css
 
 %changelog
+* Fri Mar 10 2017 Tristan De Cacqueray <tdecacqu@redhat.com> - 1.8.3.1-1.20170220git4305b35
+- Fix and Bump release
+
 * Mon Feb 20 2017 Fabien Boucher <fboucher@redhat.com> - 1.8.3.1-02202017git4305b35
 - Initial Packaging
